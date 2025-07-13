@@ -1185,6 +1185,8 @@ section,
 
 .book-a-table a {
   background-color:var(--accent-color);
+  border-color: var(--default-color);
+  border-width: 3px;
 }
 /*--------------------------------------------------------------
 # Contact Section
