@@ -202,3 +202,21 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+//Modal for Dish Details
+document.querySelectorAll('.dish-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+
+      const title = this.dataset.title;
+      const desc = this.dataset.desc;
+      const img = this.dataset.img;
+
+      document.getElementById('dishModalLabel').textContent = title;
+      document.getElementById('dishDescription').textContent = desc;
+      document.getElementById('dishImage').src = img;
+      document.getElementById('dishImage').alt = title;
+
+      const modal = new bootstrap.Modal(document.getElementById('dishModal'));
+      modal.show();
+    });
+  });
