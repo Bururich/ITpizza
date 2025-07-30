@@ -1038,7 +1038,7 @@ section,
 
 .why-us .card-item p {
   font-size: 15px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: color-mix(in srgb, rgb(0, 0, 0), transparent 40%);
   margin: 0;
   padding: 0;
 }
@@ -1181,11 +1181,13 @@ section,
 }
 .book-a-table .number{
   font-family: playfair ;
+  color: var(--accent-color);
+  background-color: var(--);
 }
 
 .book-a-table a {
   background-color:var(--accent-color);
-  border-color: var(--default-color);
+  border-color: var(--background-color);
   border-width: 3px;
 }
 /*--------------------------------------------------------------
