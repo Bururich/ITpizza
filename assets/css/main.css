@@ -1187,7 +1187,7 @@ section,
 
 .book-a-table a {
   background-color:var(--accent-color);
-  border-color: var(--background-color);
+  border-color: var(--background-color) !important;
   border-width: 3px;
 }
 /*--------------------------------------------------------------
