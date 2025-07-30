@@ -1181,13 +1181,12 @@ section,
 }
 .book-a-table .number{
   font-family: playfair ;
-  color: var(--accent-color);
-  background-color: var(--);
+  background-color: var(--background-color) !important;
 }
 
 .book-a-table a {
   background-color:var(--accent-color);
-  border-color: var(--background-color) !important;
+  border-color: var(--background-color) ;
   border-width: 3px;
 }
 /*--------------------------------------------------------------
