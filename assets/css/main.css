@@ -947,7 +947,7 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/backgroundPizza.jpg") center center;
+  background: url("../img/about-bg.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -999,8 +999,10 @@ section,
 }
 
 .about .about-img {
-  border: 6px solid color-mix(in srgb, var(--default-color), transparent 80%);
+  border: 6px solid color-mix(in srgb, var(--accent-color), transparent 80%);
   transition: 0.3s;
+  width: 350px;
+  height: 400px;
 }
 
 .about .about-img:hover {
